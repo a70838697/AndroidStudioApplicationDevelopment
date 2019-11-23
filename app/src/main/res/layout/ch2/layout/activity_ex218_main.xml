@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <SlidingDrawer
+        android:id="@+id/slidingdraw"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:handle="@+id/handle"
+        android:content="@+id/content"
+        android:clickable="true">
+        <ListView
+            android:id="@+id/content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+        <ImageView android:id="@+id/handle"
+            android:src="@drawable/down"
+            android:layout_width="88dip"
+            android:layout_height="44dip"
+            android:contentDescription="TODO"/>
+    </SlidingDrawer>
+
+</LinearLayout>

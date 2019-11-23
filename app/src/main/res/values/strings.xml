@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Android App Development</string>
+    <string name="title_activity_ex21_main">Ex21MainActivity</string>
+
+    <string name="hello">
+        \n     荷塘月色
+        \n  剪一段时光缓缓流淌，
+        \n  弹一首小荷淡淡的香，
+        \n  美丽的琴音就落在我身旁。
+    </string>
+
+    <string name="newStr">改变了文本标签的内容</string>
+
+    <string name="button">点击我，改变文字背景颜色</string>
+</resources>

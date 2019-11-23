@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <resources>
+    <string name="hello2">请输入您的姓名：</string>
+    <string name="boy">男</string>
+    <string name="girl">女</string>
+ </resources>

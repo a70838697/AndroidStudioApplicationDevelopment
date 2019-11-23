@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <TableRow><!-- 第1行 -->
+        <ImageView  android:id="@+id/mImageView1"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/img1" />
+        <ImageView  android:id="@+id/mImageView2"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/img2" />
+    </TableRow>
+
+    <TableRow><!-- 第2行 -->
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ImageView  android:id="@+id/mImageView3"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/img3" />
+        <ImageView  android:id="@+id/mImageView4"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/img4" />
+    </TableRow>
+    <TableRow>  <!-- 第3行 -->
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ImageView  android:id="@+id/mImageView5"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/img5" />
+    </TableRow>
+</TableLayout>

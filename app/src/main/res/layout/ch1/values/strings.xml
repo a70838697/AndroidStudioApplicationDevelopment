@@ -1,0 +1,7 @@
+<resources>
+    <string name="hello_world">世界，你好！</string>
+    <string name="bofan2">播放sd卡中的音乐</string>
+    <string name="bofang1">播放系统资源中的音乐</string>
+    <string name="bofang">播放系统资源中的音乐</string>
+    <string name="playButton">play</string>
+</resources>
